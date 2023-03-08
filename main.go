@@ -6,6 +6,7 @@ import (
 
 func main() {
 	// fmt.Println("Hello Your Execution Starts From HERE===>>")
-	basics.Conversion()
-	basics.MultilpleConversion()
+	// basics.Conversion()
+	// basics.MultilpleConversion()
+	basics.StoInteger()
 }
