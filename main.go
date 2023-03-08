@@ -11,5 +11,6 @@ func main() {
 	// basics.StoInteger()
 	// basics.StoFloat()
 	basics.TypeCasting()
+	basics.TypeCon()
 
 }
