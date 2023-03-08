@@ -8,5 +8,6 @@ func main() {
 	// fmt.Println("Hello Your Execution Starts From HERE===>>")
 	// basics.Conversion()
 	// basics.MultilpleConversion()
-	basics.StoInteger()
+	// basics.StoInteger()
+	basics.StoFloat()
 }
