@@ -1,8 +1,6 @@
 package main
 
-import (
-	"Gopractice/basics"
-)
+import "Gopractice/basics"
 
 func main() {
 	// fmt.Println("Hello Your Execution Starts From HERE===>>")
@@ -12,6 +10,7 @@ func main() {
 	// basics.StoFloat()
 	// basics.TypeCasting()
 	// basics.TypeCon()
-	basics.TypeSwitch()
+	// basics.TypeSwitch()
+	basics.IntSearch()
 
 }
