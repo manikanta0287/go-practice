@@ -10,7 +10,8 @@ func main() {
 	// basics.MultilpleConversion()
 	// basics.StoInteger()
 	// basics.StoFloat()
-	basics.TypeCasting()
-	basics.TypeCon()
+	// basics.TypeCasting()
+	// basics.TypeCon()
+	basics.TypeSwitch()
 
 }
