@@ -8,7 +8,7 @@ import (
 func IntSearch() {
 	s1 := []int{23, 54, 21, 65, 87, 13}
 
-	s2 := []int{400, 200, 123, 500, 654}
+	s2 := []string{"a", "z", "t", "w", "h"}
 
 	fmt.Println(s1, s2)
 
@@ -19,5 +19,15 @@ func IntSearch() {
 		fmt.Println("Error in sorting")
 	}
 
-	fmt.Println(s1)
+	sort.Strings(s2)
+
+	if sort.StringsAreSorted(s2) {
+		fmt.Println("Strings are sorted")
+	} else {
+		fmt.Println("Error in sorting")
+	}
+	fmt.Println(s1, s2)
+
+	// reverse := sort.Reverse(s1)
+	// fmt.Println(reverse)
 }
