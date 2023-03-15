@@ -12,7 +12,7 @@ func main() {
 	// basics.TypeCon()
 	// basics.TypeSwitch()
 	// basics.IntSearch()
-	basics.Resverse()
-	// basics.HadleRequest()
+	// basics.Resverse()
+	 basics.HadleRequest()
 
 }

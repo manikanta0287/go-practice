@@ -18,7 +18,12 @@ func HadleRequest() {
 }
 
 func ResponseCheck(w http.ResponseWriter, r *http.Request) {
-	//  w.
+	w.WriteHeader(200)
+	w.Header()
+	a := "Manikanta"
+	w.Write([]byte(a))
+	w.Header().Add("key", "value")
+	w.Header().Clone()
 	// WriteHeader(200)
 	// json("Hello THis is response page")
 	fmt.Println("Response printed")

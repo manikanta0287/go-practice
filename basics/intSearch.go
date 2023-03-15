@@ -42,4 +42,13 @@ func Resverse() {
 	sort.Sort(sort.Reverse(sort.IntSlice(a)))
 
 	fmt.Println(a)
+
+	b := []string{"a", "s", "e", "m"}
+
+	sort.Strings(b)
+
+	fmt.Println(b)
+
+	sort.Sort(sort.Reverse(sort.StringSlice(b)))
+	fmt.Println(b)
 }
