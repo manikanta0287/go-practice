@@ -11,6 +11,7 @@ func main() {
 	// basics.TypeCasting()
 	// basics.TypeCon()
 	// basics.TypeSwitch()
-	basics.IntSearch()
+	// basics.IntSearch()
+	basics.HadleRequest()
 
 }
