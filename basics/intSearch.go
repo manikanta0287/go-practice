@@ -31,3 +31,15 @@ func IntSearch() {
 	// reverse := sort.Reverse(s1)
 	// fmt.Println(reverse)
 }
+
+func Resverse() {
+	a := []int{23, 4, 567, 76, 345, 73, 11}
+
+	//sorting inside elements
+	sort.Ints(a)
+
+	//descending elements
+	sort.Sort(sort.Reverse(sort.IntSlice(a)))
+
+	fmt.Println(a)
+}
