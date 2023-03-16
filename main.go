@@ -20,6 +20,8 @@ func main() {
 	// y := basics.Abc(23)
 	// fmt.Println(y)
 	// fmt.Println(basics.Multireturn(123))
-	xyz, abc := basics.Add(123, 123, "SAAD")
-	fmt.Println(xyz, abc)
+	// xyz, abc := basics.Add(123, 123, "SAAD")
+	// fmt.Println(xyz, abc)
+	a := [3]int{23, 14, 45}
+	fmt.Println(basics.Array(a))
 }
