@@ -19,6 +19,7 @@ func main() {
 	// basics.HadleRequest()
 	// y := basics.Abc(23)
 	// fmt.Println(y)
-	fmt.Println(basics.Multireturn(123))
-
+	// fmt.Println(basics.Multireturn(123))
+	xyz, abc := basics.Add(123, 123, "SAAD")
+	fmt.Println(xyz, abc)
 }
