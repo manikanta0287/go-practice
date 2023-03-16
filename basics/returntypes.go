@@ -4,4 +4,6 @@ func Abc(x int) int {
 	return x + 1
 }
 
-// func 
+func Multireturn(x int) (int, int){
+	return x, x+1
+}

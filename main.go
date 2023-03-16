@@ -17,7 +17,8 @@ func main() {
 	// basics.IntSearch()
 	// basics.Resverse()
 	// basics.HadleRequest()
-	y := basics.Abc(23)
-	fmt.Println(y)
+	// y := basics.Abc(23)
+	// fmt.Println(y)
+	fmt.Println(basics.Multireturn(123))
 
 }
