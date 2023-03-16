@@ -1,6 +1,8 @@
 package main
 
-import "Gopractice/basics"
+import (
+	"fmt"
+)
 
 func main() {
 	// fmt.Println("Hello Your Execution Starts From HERE===>>")
@@ -13,6 +15,7 @@ func main() {
 	// basics.TypeSwitch()
 	// basics.IntSearch()
 	// basics.Resverse()
-	 basics.HadleRequest()
+	// basics.HadleRequest()
+	fmt.Println(basics.abc(23))
 
 }
