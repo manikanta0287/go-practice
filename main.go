@@ -1,6 +1,7 @@
 package main
 
 import (
+	"Gopractice/basics"
 	"fmt"
 )
 
@@ -16,6 +17,7 @@ func main() {
 	// basics.IntSearch()
 	// basics.Resverse()
 	// basics.HadleRequest()
-	fmt.Println(basics.abc(23))
+	y := basics.Abc(23)
+	fmt.Println(y)
 
 }
