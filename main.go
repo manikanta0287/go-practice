@@ -25,5 +25,7 @@ func main() {
 	// fmt.Println(basics.Array(a))
 	// str.BasicString()
 	// str.GeneralVerb()
-	str.Index()
+	// str.Index()
+	// str.FormatConversion()
+	str.FormatInteger()
 }
