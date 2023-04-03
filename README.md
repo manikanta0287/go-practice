@@ -1,5 +1,5 @@
 # go-practice
 
-to run the project
+To run the project
 
 go run main.go
