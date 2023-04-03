@@ -24,5 +24,6 @@ func main() {
 	// a := [3]int{23, 14, 45}
 	// fmt.Println(basics.Array(a))
 	// str.BasicString()
-	str.GeneralVerb()
+	// str.GeneralVerb()
+	str.Index()
 }
