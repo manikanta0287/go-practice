@@ -1,7 +1,7 @@
 package main
 
 import (
-	"Gopractice/str"
+	"Gopractice/database"
 )
 
 func main() {
@@ -30,5 +30,6 @@ func main() {
 	// str.FormatInteger()
 	// str.PointPrecison()
 	// str.ScientificNotation()
-	str.FormatFlags()
+	// str.FormatFlags()
+	database.DBconnection()
 }
