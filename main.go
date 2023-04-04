@@ -27,5 +27,6 @@ func main() {
 	// str.GeneralVerb()
 	// str.Index()
 	// str.FormatConversion()
-	str.FormatInteger()
+	// str.FormatInteger()
+	str.PointPrecison()
 }
