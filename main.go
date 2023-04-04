@@ -28,5 +28,7 @@ func main() {
 	// str.Index()
 	// str.FormatConversion()
 	// str.FormatInteger()
-	str.PointPrecison()
+	// str.PointPrecison()
+	// str.ScientificNotation()
+	str.FormatFlags()
 }
