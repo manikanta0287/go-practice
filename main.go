@@ -34,6 +34,7 @@ func main() {
 
 	// conditions.Condition()
 	// conditions.Loop()
-	conditions.Loop2()
+	// conditions.Loop2()
+	conditions.Switch()
 
 }
