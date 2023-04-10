@@ -7,7 +7,7 @@ import (
 )
 
 func Condition() {
-
+	// In this example, we generate random values between -5 and 4. With the help of the conditionals, we print a message for all three options.
 	rand.Seed(time.Now().UnixNano())
 
 	num := -5 + rand.Intn(10)

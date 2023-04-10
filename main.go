@@ -1,8 +1,6 @@
 package main
 
-import (
-	"Gopractice/conditions"
-)
+import "Gopractice/conditions"
 
 func main() {
 	// fmt.Println("Hello Your Execution Starts From HERE===>>")
@@ -34,6 +32,8 @@ func main() {
 
 	// database.DBconnection()
 
-	conditions.Condition()
+	// conditions.Condition()
+	// conditions.Loop()
+	conditions.Loop2()
 
 }
