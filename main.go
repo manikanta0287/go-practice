@@ -1,7 +1,7 @@
 package main
 
 import (
-	"Gopractice/database"
+	"Gopractice/conditions"
 )
 
 func main() {
@@ -31,5 +31,9 @@ func main() {
 	// str.PointPrecison()
 	// str.ScientificNotation()
 	// str.FormatFlags()
-	database.DBconnection()
+
+	// database.DBconnection()
+
+	conditions.Condition()
+
 }

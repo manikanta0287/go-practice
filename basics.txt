@@ -1,0 +1,10 @@
+The Go tool
+^^^^^^^^^^^
+command-------description
+go build  ->  compiles packages and dependencies
+go env	  ->  prints Go environment information
+go get	  ->  adds dependencies to current module and installs them
+go install->  compiles and installs packages and dependencies
+go list	  ->  lists packages and modules
+go run	  ->  compiles and runs a Go program
+go version->  prints Go version
