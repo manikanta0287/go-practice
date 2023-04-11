@@ -39,5 +39,7 @@ func main() {
 	// conditions.Loop2()
 	// conditions.Switch()
 	// commandline.CommandLine()
-	logics.Stars()
+	// logics.Stars()
+	// logics.PrintStarts()
+	logics.HalfPyramid()
 }

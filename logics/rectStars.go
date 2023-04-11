@@ -2,7 +2,7 @@ package logics
 
 import "fmt"
 
-func Stars() int {
+/* func Stars() int {
 
 	var rows, columns int
 
@@ -36,4 +36,26 @@ func Rect(x int, y int) {
 
 	}
 
+} */
+
+//Printing Stars using single functions
+
+func PrintStarts() {
+	var x, y int
+
+	fmt.Print("Enter the number of rows: ")
+	fmt.Scanf("%d", &x)
+	fmt.Print("Enter the number of columns: ")
+	fmt.Scanf("%d", &y)
+	for i := 1; i <= x; i++ {
+
+		for j := 1; j <= y; j++ {
+
+			fmt.Printf(" * ")
+
+		}
+
+		fmt.Printf("\n")
+
+	}
 }
