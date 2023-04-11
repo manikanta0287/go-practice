@@ -14,4 +14,9 @@ func Loop2() {
 	}
 
 	fmt.Println(sum)
+
+	for _, name := range nums {
+
+		fmt.Println("Hello", name)
+	}
 }

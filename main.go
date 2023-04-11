@@ -1,8 +1,6 @@
 package main
 
-import (
-	commandline "Gopractice/commandline"
-)
+import "Gopractice/conditions"
 
 func main() {
 	// fmt.Println("Hello Your Execution Starts From HERE===>>")
@@ -36,8 +34,8 @@ func main() {
 
 	// conditions.Condition()
 	// conditions.Loop()
-	// conditions.Loop2()
+	conditions.Loop2()
 	// conditions.Switch()
-	commandline.CommandLine()
+	// commandline.CommandLine()
 
 }
