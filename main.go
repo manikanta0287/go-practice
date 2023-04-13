@@ -1,7 +1,7 @@
 package main
 
 import (
-	"Gopractice/logics"
+	"Gopractice/maps"
 )
 
 func main() {
@@ -41,5 +41,6 @@ func main() {
 	// commandline.CommandLine()
 	// logics.Stars()
 	// logics.PrintStarts()
-	logics.HalfPyramid()
+	// logics.HalfPyramid()
+	maps.Mapping()
 }
