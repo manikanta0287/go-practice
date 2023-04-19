@@ -37,5 +37,28 @@ func TestMap() {
 	fmt.Println(v[1])
 
 	v[4] = "Hello"
-	fmt.Println(v[2])
+	v[16] = "World"
+	fmt.Println("v[2] :", v[2], v[16])
+
+	fmt.Println("length : ", len(v))
+
+	//------------Direct Assigning---------------------------
+
+	a := map[int]string{22: "Hello", 23: "World"}
+
+	//Concatinating here----
+	fmt.Println("a>>>>>>>:", a[22]+a[23])
+
+	//------------map Interface-------------------------------
+
+	foods := map[string]interface{}{
+		"bacon": "delicious",
+		"eggs": struct {
+			source string
+			price  float64
+		}{"chicken", 1.75},
+		"steak": true,
+	}
+	fmt.Println("foods>>>:", foods)
+
 }
