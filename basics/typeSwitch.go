@@ -4,12 +4,10 @@ import "fmt"
 
 func TypeSwitch() {
 
-	// an interface that has
-	// a string value
+	// an interface that has a string value
 	var value interface{} = 5 //"GeeksforGeeks"
 
-	// type switch to find
-	// out interface{} type
+	// type switch to find out interface{} type
 	switch t := value.(type) {
 
 	case int64:

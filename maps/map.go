@@ -27,3 +27,15 @@ func pop(key int, m map[int]string) {
 func read(m map[int]string) {
 	fmt.Println(m)
 }
+
+//-----------------------------------------------------------
+
+func TestMap() {
+	v := make(map[int]string)
+
+	v[1] = "abc"
+	fmt.Println(v[1])
+
+	v[4] = "Hello"
+	fmt.Println(v[2])
+}

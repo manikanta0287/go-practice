@@ -38,9 +38,13 @@ func main() {
 	// conditions.Loop()
 	// conditions.Loop2()
 	// conditions.Switch()
+	// conditions.Weekdays()
+
+	// conditions.AnyValue()
 	// commandline.CommandLine()
 	// logics.Stars()
 	// logics.PrintStarts()
 	// logics.HalfPyramid()
-	maps.Mapping()
+	// maps.Mapping()
+	maps.TestMap()
 }
