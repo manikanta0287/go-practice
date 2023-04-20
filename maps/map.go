@@ -61,4 +61,15 @@ func TestMap() {
 	}
 	fmt.Println("foods>>>:", foods)
 
+	person := map[string]interface{}{
+		"name": "manikanta",
+		"in-details": struct {
+			age         int
+			location    string
+			designation string
+		}{33, "Hyd", "SE"},
+		"technology": "Go",
+	}
+	fmt.Println("person map is :", person)
+
 }
