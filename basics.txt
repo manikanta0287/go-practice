@@ -8,3 +8,10 @@ go install->  compiles and installs packages and dependencies
 go list	  ->  lists packages and modules
 go run	  ->  compiles and runs a Go program
 go version->  prints Go version
+
+
+Important data types
+--------------------
+
+byte is an alias of uint8
+rune is an alias of int32
