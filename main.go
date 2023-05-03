@@ -1,7 +1,9 @@
 package main
 
 import (
+	"Gopractice/logics"
 	"Gopractice/maps"
+	"fmt"
 )
 
 func main() {
@@ -47,4 +49,7 @@ func main() {
 	// logics.HalfPyramid()
 	// maps.Mapping()
 	maps.TestMap()
+	logics.Unique()
+	array1 := []int{1, 2, 3}
+	fmt.Println("array1", array1)
 }
