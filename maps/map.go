@@ -45,7 +45,6 @@ func TestMap() {
 	//------------Direct Assigning---------------------------
 
 	a := map[int]string{22: "Hello", 23: "World"}
-
 	//Concatinating here----
 	fmt.Println("a>>>>>>>:", a[22]+a[23])
 
