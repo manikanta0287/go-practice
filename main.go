@@ -1,9 +1,8 @@
 package main
 
 import (
-	"Gopractice/logics"
-	"Gopractice/maps"
 	"fmt"
+	"strings"
 )
 
 func main() {
@@ -48,8 +47,12 @@ func main() {
 	// logics.PrintStarts()
 	// logics.HalfPyramid()
 	// maps.Mapping()
-	maps.TestMap()
-	logics.Unique()
-	array1 := []int{1, 2, 3}
-	fmt.Println("array1", array1)
+	// maps.TestMap()
+	// logics.Unique()
+	// array1 := []int{1, 2, 3}
+	// fmt.Println("array1", array1)
+
+	s := "Time is a valubale thing, this thing is not buyable"
+	strings.Fields(s)
+	fmt.Println("s>>", s)
 }
