@@ -1,7 +1,7 @@
 package main
 
 import (
-	"Gopractice/goroute"
+	"Gopractice/logics"
 )
 
 func main() {
@@ -63,5 +63,11 @@ func main() {
 	// go goroute.ResponseSize("https://stackoverflow.com")
 	// time.Sleep(10 * time.Second)
 
-	go goroute.One()
+	// go goroute.One()
+	// time.Sleep(100 * time.Microsecond)
+	// go goroute.Two()
+
+	// logics.Label()
+
+	logics.LableWithBreak()
 }
