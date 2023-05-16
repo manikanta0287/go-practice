@@ -1,7 +1,7 @@
 package main
 
 import (
-	"Gopractice/logics"
+	"Gopractice/conditions"
 )
 
 func main() {
@@ -67,7 +67,7 @@ func main() {
 	// time.Sleep(100 * time.Microsecond)
 	// go goroute.Two()
 
-	// logics.Label()
+	// conditions.Label()
 
-	logics.LableWithBreak()
+	conditions.LableWithBreak()
 }

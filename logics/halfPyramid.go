@@ -28,26 +28,4 @@ func HalfPyramid() {
 	fmt.Println("END")
 } */
 
-//labels
 
-func Label() {
-	for i := 0; i < 3; i++ {
-		for j := 0; j < 4; j++ {
-			fmt.Println("category=", i, "product=", j)
-		}
-	}
-	fmt.Println("END")
-}
-
-//Label using Break condition
-
-func LableWithBreak() {
-	for i := 0; i < 3; i++ {
-		for j := 0; j < 4; j++ {
-			fmt.Println("i=", i, "j=", j)
-			if i == j {
-				break
-			}
-		}
-	}
-}
