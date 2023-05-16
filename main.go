@@ -1,8 +1,10 @@
 package main
 
 import (
+	"Gopractice/goroute"
 	"Gopractice/logics"
 	"fmt"
+	"time"
 )
 
 func main() {
@@ -58,5 +60,10 @@ func main() {
 
 	items := []int{1, 2, 9, 20, 31, 45, 63, 70, 100}
 	fmt.Println(logics.BinarySearch(63, items))
+
+	go goroute.ResponseSize("https://www.golangprograms.com")
+	go goroute.ResponseSize("https://coderwall.com")
+	go goroute.ResponseSize("https://stackoverflow.com")
+	time.Sleep(10 * time.Second)
 
 }
