@@ -1,8 +1,8 @@
 package main
 
 import (
+	"Gopractice/logics"
 	"fmt"
-	"strings"
 )
 
 func main() {
@@ -52,7 +52,11 @@ func main() {
 	// array1 := []int{1, 2, 3}
 	// fmt.Println("array1", array1)
 
-	s := "Time is a valubale thing, this thing is not buyable"
-	strings.Fields(s)
-	fmt.Println("s>>", s)
+	// s := "Time is a valubale thing, this thing is not buyable"
+	// strings.Fields(s)
+	// fmt.Println("s>>", s)
+
+	items := []int{1, 2, 9, 20, 31, 45, 63, 70, 100}
+	fmt.Println(logics.BinarySearch(63, items))
+
 }
