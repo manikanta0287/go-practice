@@ -14,3 +14,16 @@ func HalfPyramid() {
 		fmt.Print("\n")
 	}
 }
+
+//Second Method
+
+/* func HalfPyramid() {
+	n := 5
+	for i := 0; i < n; i++ {
+		for j := 0; j <= i; j++ {
+			fmt.Print("*")
+		}
+		fmt.Println(" ")
+	}
+	fmt.Println("END")
+} */
