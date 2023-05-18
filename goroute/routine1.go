@@ -24,3 +24,15 @@ func ResponseSize(url string) {
 	}
 	fmt.Println("Step4: ", len(body))
 }
+
+func Vowels() {
+	var letter string
+	fmt.Println("Enter the letter : ")
+	fmt.Scanf("%s", &letter)
+	switch letter {
+	case "a", "e", "i", "o", "u":
+		fmt.Println("The letter is vowel")
+	default:
+		fmt.Println("Not vowel")
+	}
+}

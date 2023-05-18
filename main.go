@@ -2,6 +2,7 @@ package main
 
 import (
 	"Gopractice/conditions"
+	"Gopractice/logics"
 )
 
 func main() {
@@ -70,4 +71,10 @@ func main() {
 	// conditions.Label()
 
 	conditions.LableWithBreak()
+
+	// Driver Code
+	n := 20
+	K := 6
+
+	logics.PrintNumber(n, n, K, true)
 }
