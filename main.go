@@ -36,7 +36,9 @@ func main() {
 	// conditions.Loop()
 	// conditions.Loop2()
 	// conditions.Switch()
-	conditions.Weekdays()
+	// conditions.Weekdays()
+	// conditions.FallThrough()
+	conditions.BreakSwitch()
 
 	// conditions.AnyValue()
 	// commandline.CommandLine()
