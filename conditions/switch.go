@@ -2,7 +2,6 @@ package conditions
 
 import (
 	"fmt"
-	"time"
 )
 
 func Switch() {
@@ -21,16 +20,23 @@ func Switch() {
 }
 
 func Weekdays() {
-	// var day int
-	// fmt.Println("Enter the day value: ")
-	// fmt.Scanf("%d", &day)
-	// fmt.Println("day", day)
+	var letter string
+	fmt.Print("Enter the letter : ")
+	fmt.Scanf("%s", &letter)
+	fmt.Println("letter", letter)
 
-	switch time.Now().Weekday() {
-	case time.Saturday, time.Sunday:
-		fmt.Println("Weekend Go and Enjoy Your weekend")
+	// switch time.Now().Weekday() {
+	// case time.Saturday, time.Sunday:
+	// 	fmt.Println("Weekend Go and Enjoy Your weekend")
+	// default:
+	// 	fmt.Println("come to office and do your work")
+	// }
+
+	switch letter {
+	case "a", "e", "i", "o", "u":
+		fmt.Println("vowel")
 	default:
-		fmt.Println("come to office and do your work")
+		fmt.Println("Not vowel")
 	}
 
 }

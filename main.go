@@ -1,9 +1,6 @@
 package main
 
-import (
-	"Gopractice/conditions"
-	"Gopractice/logics"
-)
+import "Gopractice/conditions"
 
 func main() {
 	// fmt.Println("Hello Your Execution Starts From HERE===>>")
@@ -39,7 +36,7 @@ func main() {
 	// conditions.Loop()
 	// conditions.Loop2()
 	// conditions.Switch()
-	// conditions.Weekdays()
+	conditions.Weekdays()
 
 	// conditions.AnyValue()
 	// commandline.CommandLine()
@@ -48,6 +45,7 @@ func main() {
 	// logics.HalfPyramid()
 	// maps.Mapping()
 	// maps.TestMap()
+	// maps.DeclareMap()
 	// logics.Unique()
 	// array1 := []int{1, 2, 3}
 	// fmt.Println("array1", array1)
@@ -70,11 +68,11 @@ func main() {
 
 	// conditions.Label()
 
-	conditions.LableWithBreak()
+	// conditions.LableWithBreak()
 
 	// Driver Code
-	n := 20
+	/* n := 20
 	K := 6
 
-	logics.PrintNumber(n, n, K, true)
+	logics.PrintNumber(n, n, K, true) */
 }

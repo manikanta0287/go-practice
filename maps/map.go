@@ -2,7 +2,11 @@
 // Click here and start typing.
 package maps
 
-import "fmt"
+import (
+	"encoding/json"
+	"fmt"
+	"log"
+)
 
 func Mapping() {
 	m := make(map[int]string)
@@ -71,4 +75,74 @@ func TestMap() {
 	}
 	fmt.Println("person map is :", person)
 
+}
+
+//Declaring a map
+
+func DeclareMap() {
+	var menu map[string]float64
+
+	menu = map[string]float64{
+		"eggs":  1.75,
+		"bacon": 3.22,
+		"saus":  1.89,
+	}
+	fmt.Println("menu is :", menu)
+
+	type menuItems struct {
+		price float64
+	}
+
+	var menu2 = map[string]menuItems{
+		"beans": menuItems{
+			price: 0.49,
+		},
+	}
+	fmt.Println("menu2 is:", menu2)
+
+	// beans := menu["beans"]
+	// beans.price = 0.25
+	// menu["beans"] = beans
+
+	/* var menu3 = map[string]bool{
+		"chicken": true,
+		"steak":   true,
+	}
+	if _, ok := menu3[dish]; ok {
+		fmt.Sprintf("Yes , %s is in menu2", dish)
+	}
+	fmt.Sprintln("Sorry , we're all out of %s", dish)
+	fmt.Println(menu3) */
+
+	//Iterating the map
+	for item, price := range menu {
+		fmt.Println(item, price)
+	}
+
+	//Copying a map
+	m := map[string]bool{
+		"abc": true,
+		"bcd": false,
+		"xyz": true,
+	}
+	fmt.Println(m)
+
+	c := map[string]bool{}
+	for k, v := range m {
+		c[k] = v
+	}
+
+	fmt.Println(c)
+
+	//Convert map into json data
+	Map := map[string]bool{
+		"abc": true,
+		"bcd": false,
+		"xyz": true,
+	}
+	data, err := json.Marshal(Map)
+	if err != nil {
+		log.Fatal(err)
+	}
+	fmt.Printf("%s\n", data)
 }
