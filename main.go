@@ -1,6 +1,9 @@
 package main
 
-import "Gopractice/conditions"
+import (
+	"Gopractice/conditions"
+	utillibrary "Gopractice/utilLibrary"
+)
 
 func main() {
 	// fmt.Println("Hello Your Execution Starts From HERE===>>")
@@ -77,4 +80,6 @@ func main() {
 	K := 6
 
 	logics.PrintNumber(n, n, K, true) */
+
+	utillibrary.ReadAll()
 }
