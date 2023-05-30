@@ -2,7 +2,8 @@ package main
 
 import (
 	"Gopractice/conditions"
-	utillibrary "Gopractice/utilLibrary"
+	"Gopractice/goroute"
+	"fmt"
 )
 
 func main() {
@@ -70,6 +71,8 @@ func main() {
 	// go goroute.One()
 	// time.Sleep(100 * time.Microsecond)
 	// go goroute.Two()
+	// go goroute.SendData(chan int, 10)
+	// goroute.PrintWaitGroup()
 
 	// conditions.Label()
 
@@ -81,5 +84,5 @@ func main() {
 
 	logics.PrintNumber(n, n, K, true) */
 
-	utillibrary.ReadAll()
+	// utillibrary.ReadAll()
 }
