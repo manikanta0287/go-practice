@@ -2,8 +2,7 @@ package main
 
 import (
 	"Gopractice/conditions"
-	"Gopractice/goroute"
-	"fmt"
+	"Gopractice/ospackage"
 )
 
 func main() {
@@ -43,7 +42,6 @@ func main() {
 	// conditions.Weekdays()
 	// conditions.FallThrough()
 	conditions.BreakSwitch()
-
 	// conditions.AnyValue()
 	// commandline.CommandLine()
 	// logics.Stars()
@@ -85,4 +83,5 @@ func main() {
 	logics.PrintNumber(n, n, K, true) */
 
 	// utillibrary.ReadAll()
+	ospackage.ExistFile()
 }
