@@ -1,8 +1,9 @@
 package main
 
 import (
-	"Gopractice/conditions"
-	"Gopractice/ospackage"
+	"Gopractice/config"
+	"fmt"
+	"project/example/stringutil"
 )
 
 func main() {
@@ -41,7 +42,7 @@ func main() {
 	// conditions.Switch()
 	// conditions.Weekdays()
 	// conditions.FallThrough()
-	conditions.BreakSwitch()
+	// conditions.BreakSwitch()
 	// conditions.AnyValue()
 	// commandline.CommandLine()
 	// logics.Stars()
@@ -69,7 +70,9 @@ func main() {
 	// go goroute.One()
 	// time.Sleep(100 * time.Microsecond)
 	// go goroute.Two()
-	// go goroute.SendData(chan int, 10)
+	// c := make(chan int)
+	// c <- 10
+	// goroute.SendData(c)
 	// goroute.PrintWaitGroup()
 
 	// conditions.Label()
@@ -83,5 +86,11 @@ func main() {
 	logics.PrintNumber(n, n, K, true) */
 
 	// utillibrary.ReadAll()
-	ospackage.ExistFile()
+	// ospackage.ExistFile()
+
+	a := "Hello"
+	fmt.Println(stringutil.Reverse(a))
+	// p := lipgloss.Height(a)
+	// fmt.Println(p)
+	config.Database()
 }
